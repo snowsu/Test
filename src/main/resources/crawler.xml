@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<webSites> 
+<!--   <webSite startUrl="http://www.huxiu.com/" parseClass="com.crawler.parse.SimpleParse" depth="3" threadCount="5" siteName="虎嗅网"> 
+    <regexList> 
+      <regex>http://www.huxiu.com/article/*.*</regex> 
+    </regexList> 
+  </webSite>  
+  <webSite startUrl="http://www.leiphone.com/" parseClass="com.crawler.parse.SimpleParse" depth="3" threadCount="5" siteName="雷锋网"> 
+    <regexList> 
+      <regex>http://www.leiphone.com/news/*.*</regex> 
+    </regexList> 
+  </webSite>  
+  <webSite startUrl="http://www.cyzone.cn/" parseClass="com.crawler.parse.SimpleParse" depth="3" threadCount="5" siteName="快鲤鱼"> 
+    <regexList> 
+      <regex>http://www.cyzone.cn/a/*.*</regex> 
+    </regexList> 
+  </webSite>  
+  <webSite startUrl="http://pianke.me/" parseClass="com.crawler.parse.SimpleParse" depth="3" threadCount="5" siteName="片刻网"> 
+    <regexList> 
+      <regex>http://pianke.me/posts/*.*</regex> 
+    </regexList> 
+  </webSite>  
+  <webSite startUrl="http://www.xiamp4.com/" parseClass="com.crawler.parse.SimpleParse" depth="3" threadCount="5" siteName="迅雷影院"> 
+    <regexList> 
+      <regex>http://www.xiamp4.com/Html/*.*</regex> 
+    </regexList> 
+  </webSite>  
+  <webSite startUrl="http://blogs.nasa.gov/" parseClass="com.crawler.parse.SimpleParse" depth="3" threadCount="5" siteName="NASA"> 
+    <regexList> 
+      <regex>http://blogs.nasa.gov/*.*/*.*/*.*/*.*/*.*</regex> 
+    </regexList> 
+  </webSite>  
+  <webSite startUrl="https://blogs.nasa.gov/" parseClass="com.crawler.parse.SimpleParse" depth="3" threadCount="5" siteName="NASA"> 
+    <regexList> 
+      <regex>https://blogs.nasa.gov/*.*/*.*/*.*/*.*/*.*</regex> 
+    </regexList> 
+  </webSite>  
+  <webSite startUrl="http://www.tmtpost.com/" parseClass="com.crawler.parse.SimpleParse" depth="3" threadCount="5" siteName="钛媒体"> 
+    <regexList> 
+      <regex>http://www.tmtpost.com/[0-9]*.html</regex> 
+    </regexList> 
+  </webSite>  
+  <webSite startUrl="http://www.sina.com/" parseClass="com.crawler.parse.SimpleParse" depth="3" threadCount="5" siteName="新浪">
+    <regexList>
+      <regex>http://www.sina.com/[0-9]*.html</regex>
+    </regexList>
+  </webSite> -->
+  <webSite startUrl="http://zhidao.baidu.com/" parseClass="com.crawler.parse.SimpleParse" depth="3" threadCount="5" siteName="百度">
+    <regexList>
+      <regex>http://zhidao.baidu.com/browse/*</regex>
+    </regexList>
+  </webSite>
+</webSites>

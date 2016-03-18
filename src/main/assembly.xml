@@ -1,0 +1,55 @@
+<assembly>
+  <id>${project.version}-release</id>
+  <!--文件格式-->
+  <formats>
+    <format>zip</format>
+  </formats>
+
+  <fileSets>	
+    <fileSet>
+	  <!-- 需要打包的路径 -->  
+      <directory>${project.basedir}/logs</directory>  
+	  <!-- 过滤 -->  
+		<excludes>  
+			<exclude>*.log</exclude>  
+		</excludes>  
+		<!-- 打包后输出的路径 --> 
+	  <outputDirectory>/logs</outputDirectory>
+    </fileSet>
+
+    <fileSet>
+      <directory>cmd</directory>
+      <outputDirectory>/bin</outputDirectory>
+      <excludes>  
+			<exclude>*.bat</exclude>  
+		</excludes>  
+    </fileSet>
+
+	<fileSet>
+      <directory>src/main/resources</directory>
+      <outputDirectory>/config</outputDirectory>
+	  <excludes>  
+			<exclude>*.sql</exclude>  
+		</excludes> 
+    </fileSet>
+
+	<fileSet>
+      <directory>${project.build.directory}</directory>
+      <outputDirectory>/</outputDirectory>
+	  <includes>
+        <include>${project.artifactId}.jar</include>        
+      </includes>
+    </fileSet>
+  </fileSets>
+
+  <dependencySets>
+    <dependencySet>
+	  <!-- 当前项目构件是否包含在这个依赖集合里 -->
+      <useProjectArtifact>false</useProjectArtifact>
+	  <!-- 将runtime时依赖包打包到lib目录下。 -->
+      <outputDirectory>lib</outputDirectory>
+	  <scope>runtime</scope>
+    </dependencySet>
+  </dependencySets>
+ 
+</assembly>
