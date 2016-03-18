@@ -1,0 +1,17 @@
+
+"http://common.diditaxi.com.cn/general/webEntry?maptype=wgs&channel=70021";//打车
+"http://m.ctrip.com/webapp/train?allianceid=300702&sid=768937&popup=close&hiderecommapp=1";//火车票
+"http://touch.qunar.com/h5/flight/?bd_source=binzhi";//机票
+"http://touch.qunar.com/h5/hotel/?bd_source=binzhi";//旅馆
+"http://bingzhi.yunjiazheng.com/index/index?worktype=null&platform=other";//家政
+"http://www.idachu.cn/?ichannel=628";//爱大厨
+"http://www.tngou.net/doc/cook";  //菜谱
+"http://guahao.quyiyuan.com/m/#/tab/home";  //在线医生
+"http://h.ddky.com/index.html?source=binzhiguanjia";  //医药
+"http://m.228.cn/unionAction?unionId=53224525";//票务
+"http://m.ly.com/selftrip/ ";//周边游
+"http://h.ddky.com/index.html?source=binzhiguanjia";//送药上门 
+"http://m.quxiu8.com/";//秀美甲
+"http://h5.edaijia.cn/app/index.html?from=01051241";//代驾
+"http://www.51zhangdan.com/www_bks/v4/index.html?channel=bwz&isthird=1";//助理
+"http://m.yishengshi.xywy.com";//医省时
